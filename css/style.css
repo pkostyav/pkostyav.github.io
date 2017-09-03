@@ -1,0 +1,481 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #E8E8E8;
+     position: relative;
+    z-index: 1;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #333;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+#changeimage {
+    width: 100%;
+}
+#container_logo {
+    top: 55px;
+}
+#css-adaptive {
+    max-width: 100%;
+}
+
+#info{
+  font-family: tahoma;  
+  text-align: center;
+color: #D3D3D3;
+    float: center;
+}
+#info1 {
+    
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 300px;
+    color: snow;
+    
+}
+#ufinfo {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif: ;
+    font-size: 14px;
+   background: rgba( 28, 28, 28, 0.0);
+    color: #E8E8E8;
+    border: 0px;
+    margin-top: -30px;
+    right: 0px;
+}
+/*Логотипи фестевалів*/
+#Event_1 {
+    max-width: 15%;
+    
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+    cursor: pointer;
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    
+    
+    position: absolute;
+    z-index: 6;
+    top: 240px;
+    left: 2px;
+}
+#Event_1:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+    -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+    
+   
+}
+#Event_2{
+     cursor: pointer;
+    max-width: 20%;
+    height: auto;
+     -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    position: absolute;
+    z-index: 6;
+    top: 110px;
+    left: 15px;
+}
+
+#Event_2:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#Event_3{
+    max-width: 14%;
+     -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    position: absolute;
+    z-index: 6;
+    top: 15px;
+    left: 140px;
+}
+#Event_3:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#Event_4{
+    cursor: pointer;
+    max-width: 20%;
+     -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    position: absolute;
+    z-index: 6;
+    top: 10px;
+    left: 270px;
+}
+#Event_4:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#Event_5{
+    cursor: pointer;
+    max-width: 29%;
+     -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    position: absolute;
+    z-index: 6;
+    top: -19px;
+    left: 390px;
+}
+#Event_5:hover {
+    
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#Event_1_1 {
+    max-width: 15%;
+    
+    cursor: not-allowed;
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    
+    
+    position: absolute;
+    z-index: 6;
+    top: 240px;
+    left: 2px;
+    
+}
+#Event_2_1 {
+    max-width: 20%;
+    position: absolute;
+     cursor: not-allowed;
+    z-index: 6;
+    top: 110px;
+    left: 15px;
+    
+}
+#Event_3_1 {
+    max-width: 14%;
+    position: absolute;
+     cursor: not-allowed;
+    z-index: 6;
+    top: 15px;
+    left: 140px;
+    
+    
+}
+#Event_4_1 {
+    max-width: 20%;
+    position: absolute;
+     cursor: not-allowed;
+    z-index: 6;
+   top: 10px;
+    left: 270px;
+    
+    
+}
+#Event_5_1 {
+    max-width: 29%;
+    position: absolute;
+     cursor: not-allowed;
+    z-index: 6;
+    top: -19px;
+    left: 390px;
+    
+}
+
+#carousel{
+    margin-top: 54px;
+    position: relative;
+    
+    
+}
+#carousel_1{
+    margin-top: 54px;
+    position: relative;
+}
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #E6E6FA;
+  }
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: ghostwhite;
+    background-color: transparent;
+  }
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #080808;
+    background-color: #080808;
+  }
+#fullphoto {
+    width: 100%
+        
+}
+
+
+/*My photoshop img*/
+#Fest {
+    position: absolute;
+    z-index: 4;
+    left: 0px;
+    margin-top: -0px;
+    opacity: 0.9;
+    -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+    max-width: 107%;
+}
+
+#Fest1 {
+
+    width: 105.5%;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    margin-top: -0px;
+    opacity: 0.9;
+    -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+
+/*Music table*/
+
+#top1 {
+    
+    
+    
+    position: absolute;
+    height: 440px;
+    width: 100%;
+    z-index: 5;
+    right: 0px;
+    
+    -moz-transition: 0.8s 0.1s ease; 
+-webkit-transition: 0.8s 0.1s ease;  
+-ms-transition: 0.8s 0.1s ease;  
+-o-transition: 0.8s 0.1s ease;  
+transition: 0.8s 0.1s ease; 
+     padding: 0; !impotant;
+    margin: 0; !impotant;
+    left: 0px; !impotant;
+   
+    
+}
+#table100 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif: ;
+    color: azure;
+    height: 410px;
+   
+    overflow-x: hidden;
+    background: rgba (105, 105, 105, 0.5);
+    -moz-transition: 0.8s 0.1s ease; 
+-webkit-transition: 0.8s 0.1s ease;  
+-ms-transition: 0.8s 0.1s ease;  
+-o-transition: 0.8s 0.1s ease;  
+transition: 0.8s 0.1s ease; 
+    
+    
+}
+#table100:hover {
+     
+    overflow-y: scroll ;
+     color: #D1EEEE;
+    background: rgba( 28, 28, 28, 0.9);
+}
+/*Photos scrol*/
+#rightcontrol{
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+/*Pause button*/
+#spause {
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+    top: auto;
+    cursor: pointer;
+}
+#spause:hover {
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+    
+}
+
+/*Music img radius*/
+#zoom{
+     cursor: pointer; 
+    position: relative;
+   -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+#zoom:hover {
+  border-radius: 70%;
+}
+#zoom1:hover {
+  border-radius: 70%;
+}
+#zoom1{
+     cursor: pointer; 
+    position: relative;
+   -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+#zoom2:hover {
+  border-radius: 70%;
+}
+#zoom2{
+     cursor: pointer; 
+    position: relative;
+   -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+
+
+
+/*Інфо*/
+#myinfo {
+    position: relative;
+    z-index: 12;
+    height: 85px;
+    background: #222;
+    color: #696969;
+    font-size: 12px;
+}
+#myinfo_1 {
+    left: 0px;
+    
+    bottom: -10px;
+}
+#myinfo_1:hover {
+    opacity: 0.8;
+}
+#myinfo_2 {
+    text-align: center;
+    bottom: -10px;
+}
+#myinfo_2:hover {
+    opacity: 0.8;
+}
+#myinfo_3 {
+    text-align: right;
+    bottom: -10px;
+}
+#myinfo_3:hover {
+    opacity: 0.8;
+}
+
+
