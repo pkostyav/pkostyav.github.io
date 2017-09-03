@@ -28,6 +28,26 @@ function changeImage_3() {
     image.src = "image/ivb.jpg";   
   }  
 }
+function changeImage_4() {
+  var image = document.getElementById("changeimage");
+  
+  if (image.src.match("Concert(1)")) {
+    image.src = "image/Cudi(px).jpg";
+  } 
+    else { 
+    image.src = "image/Cudi(px).jpg";   
+  }  
+}
+function changeImage_5() {
+  var image = document.getElementById("changeimage");
+  
+  if (image.src.match("Concert(1)")) {
+    image.src = "image/stay.jpg";
+  } 
+    else { 
+    image.src = "image/stay.jpg";   
+  }  
+}
 /*player img change*/
 
 function changePlayerImage() {
@@ -61,36 +81,25 @@ function changePlayerImage3() {
   }  
 }
 function changePlayerImage4() {
-  var image = document.getElementById("zoom1");
+  var image = document.getElementById("zoom3");
   
-  if (image.src.match("LFM")) {
-    image.src = "image/imgonline-com-ua-PicOnPic-bnXNTMJqRKdM.png";
+  if (image.src.match("imgonline-com-ua-PicOnPic-C8PZH69Ijd7hc")) {
+    image.src = "image/cudi.jpg";
   } 
     else { 
-    image.src = "image/imgonline-com-ua-PicOnPic-bnXNTMJqRKdM.png";   
+    image.src = "image/imgonline-com-ua-PicOnPic-C8PZH69Ijd7hc.png";   
   }  
 }
-
-/*function changePlayerImage5() {
-  var image = document.getElementById("zoom2");
+function changePlayerImage5() {
+  var image = document.getElementById("zoom4");
   
-  if (image.src.match("imgonline-com-ua-PicOnPic-BnohZ1dW2epHd")) {
-    image.src = "image/images.jpg";
+  if (image.src.match("stayPplay")) {
+    image.src = "image/StayP.jpg";
   } 
     else { 
-    image.src = "image/imgonline-com-ua-PicOnPic-BnohZ1dW2epHd.png";   
+    image.src = "image/stayPplay.png";   
   }  
 }
-function changePlayerImage6() {
-  var image = document.getElementById("zoom2");
-  
-  if (image.src.match("")) {
-    image.src = "";
-  } 
-    else { 
-    image.src = "";   
-  }  
-}*/
 
 var activeSong;
 function stopSong(){

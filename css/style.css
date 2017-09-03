@@ -443,6 +443,28 @@ transition: 0.8s 0.1s ease;
   -o-transition: all 0.5s ease;;
   transition: all 0.5s ease;
 }
+#zoom3:hover {
+  border-radius: 70%;
+}
+#zoom3{
+     cursor: pointer; 
+    position: relative;
+   -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+#zoom4:hover {
+  border-radius: 70%;
+}
+#zoom4{
+     cursor: pointer; 
+    position: relative;
+   -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
 
 
 
