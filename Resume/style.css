@@ -1,0 +1,347 @@
+body {
+        background-color: beige;
+}
+
+* {
+     margin: 0;
+    padding: 0;
+}
+.header {
+    font-weight: 100;
+    width: 100%;
+    height: 180px;
+    color: whitesmoke;
+    font-family: Century Gothic;
+    font-size: 18px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.wrapper {
+    margin-top: 5px;
+    width: 100;
+    height: 600px;
+    background: black;
+    
+    
+}
+.photo {
+    opacity: 0.9;
+    color: azure;
+    float: left;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 40px;
+    width: 340px;
+    height: 550px;
+}
+.hobby { 
+    opacity: 0.9;
+    margin-top: 40px;
+    margin-left: 15px;
+    float: left;
+    
+     width: 380px;
+    height: 500px;
+    color:azure;
+}
+#icon {
+    
+    -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+}
+#icon:hover {
+    cursor: pointer;
+    
+    
+    -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+.h {
+    padding-top: 55px;
+    margin-left: 100px;
+}
+.wrapper2 {
+    
+    height: 600px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-image: url(images/desktopwallpapers.org.ua_9834.jpg);
+}
+.project {
+    margin-right: 40px;
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    float: right;
+    width: 320px;
+    height: 500px;
+    color: azure;
+    
+}
+.skills1 {
+    color: azure;
+    float: left;
+    width: 145px;
+    height: 200px;
+    margin-top: 20px;
+}
+.skills2 {
+    text-align: left;
+    color: azure;
+    margin-left: 40px;
+    float: right;
+    width: 145px;
+    height: 200px;
+    margin-top: 18px;
+}
+.hobby1 {
+    
+    float: left;
+    margin-top: 60px;
+    width: 170px;
+    margin-left: 30px;
+    
+    
+}
+.hobby2 {
+    
+    float: left;
+    margin-top: 60px;
+    width: 170px;
+     
+    
+}
+#mh {
+     
+    margin-top: 155px;
+}
+#Tchange {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+     -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#Tchange:hover {
+    
+     
+   
+  -webkit-transform: translateX(+9px);
+  transform: translateX(+9px);
+}
+
+#p1 {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+    -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    float: right;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p1:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+    
+}
+#p2 {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+     -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    float: left;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p2:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; 
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+#p3 {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+    -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    margin-right: 8px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p3:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+    
+}
+#p4 {
+     -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    margin-left: 8px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p4:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+#p5 {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+    -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    margin-right: 8px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p5:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+    
+}
+#p6 {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+     -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5s ease;
+    margin-left: 8px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px
+    
+}
+#p6:hover {
+    -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none; 
+     -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.scrolling {
+     margin-top: 10px;
+     background-color: black;
+     margin: 0 auto;
+     width: 100%;
+     height: 300px;
+     overflow-x: scroll;
+     overflow-y: hidden;
+     white-space: nowrap; 
+     word-wrap: normal; 
+}
+
+.scrolling img {
+     width: 380px;
+     height: 100%;
+}
+#scr {
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; 
+    -webkit-transition: all 0.7s ease;;
+  -moz-transition: all 0.7s ease;;
+  -o-transition: all 0.7s ease;;
+  transition: all 0.7s ease;
+}
+#scr:hover {
+     -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; 
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.inf{
+    float: right;
+    margin-right: 120px;
+}
