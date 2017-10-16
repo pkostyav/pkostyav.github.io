@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 .header {
+    
     font-weight: 100;
     width: 100%;
     height: 180px;
@@ -18,9 +19,9 @@ body {
 }
 
 .wrapper {
-    position: relative;
+    position: absolute;
     margin-top: 5px;
-    width: 100;
+    width: 100%;
     height: 600px;
     background: black;
     
@@ -74,13 +75,15 @@ body {
     background-image: url(../images/desktopwallpapers.org.ua_9834.jpg);
 }
 .project {
+      
+    position: relative;
     margin-right: 40px;
     text-align: center;
     align-content: center;
     margin-top: 40px;
     float: right;
     width: 20%;
-    height: 500px;
+    height: 550px;
     color: azure;
     
 }
@@ -306,6 +309,7 @@ body {
 }
 
 .scrolling {
+    position: relative;
      margin-top: 10px;
      background-color: black;
      margin: 0 auto;
