@@ -7,10 +7,14 @@
     }
 }
 @media only screen and (max-width : 901px) {
+    
     .photo {
-        width: 390px;
+        float: none;
+        width: 490px;
+        
     }
     .photo1 {
+        float: none;
         width: 100px;
     }
 }
