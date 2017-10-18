@@ -112,18 +112,23 @@
 }
 }
 @media only screen and (max-device-width: 480px) {
+    .header {
+    font-weight: 100;
+    width: 100%;
+        height: 240px;
+    }
     .hobby2 {
-         margin-top: 70px;
+         margin-top: 30px;
         float: right;
         margin-right:0px;
     }
     .hobby1 {
-        margin-top: 70px;
+        margin-top: 30px;
         float: right;
         margin-right:80px;
     }
     #mh {
-        margin-top: 45px;
+        margin-top: 10px;
         margin-left: 220px;
     }
     .photo #Tchange {
@@ -138,12 +143,11 @@
          margin-left: 30px;
     }
     .hobby #inf {
-        font-size: 25px;
+        font-size: 30px;
     }
     .hobby {
     width: 520px;
-    }
-    
+    }   
     .photo {
         margin-top:50px;
     margin-left: 70px;
@@ -152,18 +156,29 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.h p {
+    .h p {
         font-size: 27px;
     }
-.h {
+    .h {
     padding-top: 55px;
     text-align: center;
     margin-left: 0px;
 }
     .inf {
-    float: right;
-    margin-right: 145px;
+        width: 100%;
+    margin: auto;
+    text-align: center;
+    
+    
 }
-.h #Tchange {
+    .h #Tchange {
     font-size: 50px;
+}
+    .inf   #icon {
+        margin: 25px;
+        float: inherit;
+        width: 65px;
+        height: 65px;
+        
+    }
 }
