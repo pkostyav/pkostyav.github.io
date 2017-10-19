@@ -171,6 +171,7 @@ body {
     
 }
 #p2 {
+    opacity: 0.2;
     -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -188,6 +189,7 @@ body {
     
 }
 #p2:hover {
+    opacity: 1;
     -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -199,6 +201,7 @@ body {
   transform: scale(0.7);
 }
 #p3 {
+    opacity: 0.2;
     -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -216,6 +219,7 @@ body {
     
 }
 #p3:hover {
+     opacity: 1;
     -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -228,6 +232,7 @@ body {
     
 }
 #p4 {
+    opacity: 0.2;
      -webkit-transition: all 0.5s ease;;
   -moz-transition: all 0.5s ease;;
   -o-transition: all 0.5s ease;;
@@ -239,6 +244,7 @@ body {
     
 }
 #p4:hover {
+    opacity: 1;
     -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -250,7 +256,7 @@ body {
   transform: scale(0.7);
 }
 #p5 {
-    
+    opacity: 0.2;
     -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -268,6 +274,7 @@ body {
     
 }
 #p5:hover {
+    opacity: 1;
     -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -280,7 +287,7 @@ body {
     
 }
 #p6 {
-    
+    opacity: 0.2;
     -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -298,6 +305,7 @@ body {
     
 }
 #p6:hover {
+    opacity: 1;
     -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
